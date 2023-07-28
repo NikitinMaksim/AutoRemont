@@ -15,7 +15,7 @@ namespace Nikitin_autoremont
             int port = 3306;
             string database = "autoremont";
             string username = "root";
-            string password = "password";
+            string password = "";
 
             return DBMySQLUtils.GetDBConnection(host, port, database, username, password);
         }

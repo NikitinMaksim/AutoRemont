@@ -7,6 +7,12 @@ C:\Users\Makas\Documents\Visual Studio 2013\Projects\Final_project\Nikitin_autor
 C:\Users\Makas\Documents\Visual Studio 2013\Projects\Final_project\Nikitin_autoremont\Nikitin_autoremont\bin\Debug\Nikitin_autoremont.pdb
 C:\Users\Makas\Documents\Visual Studio 2013\Projects\Final_project\Nikitin_autoremont\Nikitin_autoremont\obj\Debug\Nikitin_autoremont.exe
 C:\Users\Makas\Documents\Visual Studio 2013\Projects\Final_project\Nikitin_autoremont\Nikitin_autoremont\obj\Debug\Nikitin_autoremont.pdb
-E:\Проект\Desktop app\Nikitin_autoremont\Nikitin_autoremont\bin\Debug\Nikitin_autoremont.exe.config
-E:\Проект\Desktop app\Nikitin_autoremont\Nikitin_autoremont\obj\Debug\Nikitin_autoremont.exe
-E:\Проект\Desktop app\Nikitin_autoremont\Nikitin_autoremont\obj\Debug\Nikitin_autoremont.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\Final_project\Nikitin_autoremont\Nikitin_autoremont\bin\Debug\Nikitin_autoremont.exe.config
+C:\Users\user\Documents\Visual Studio 2013\Projects\Final_project\Nikitin_autoremont\Nikitin_autoremont\obj\Debug\Nikitin_autoremont.exe
+C:\Users\user\Documents\Visual Studio 2013\Projects\Final_project\Nikitin_autoremont\Nikitin_autoremont\obj\Debug\Nikitin_autoremont.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\Final_project\Nikitin_autoremont\Nikitin_autoremont\obj\Debug\Nikitin_autoremont.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2013\Projects\Final_project\Nikitin_autoremont\Nikitin_autoremont\obj\Debug\Nikitin_autoremont.Form1.resources
+C:\Users\user\Documents\Visual Studio 2013\Projects\Final_project\Nikitin_autoremont\Nikitin_autoremont\obj\Debug\Nikitin_autoremont.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2013\Projects\Final_project\Nikitin_autoremont\Nikitin_autoremont\obj\Debug\Nikitin_autoremont.csproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2013\Projects\Final_project\Nikitin_autoremont\Nikitin_autoremont\bin\Debug\Nikitin_autoremont.exe
+C:\Users\user\Documents\Visual Studio 2013\Projects\Final_project\Nikitin_autoremont\Nikitin_autoremont\bin\Debug\Nikitin_autoremont.pdb
