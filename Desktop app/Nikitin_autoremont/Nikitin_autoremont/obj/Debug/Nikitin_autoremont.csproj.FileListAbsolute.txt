@@ -25,3 +25,6 @@ C:\Users\user\Documents\GitHub\AutoRemont\Desktop app\Nikitin_autoremont\Nikitin
 C:\Users\user\Documents\GitHub\AutoRemont\Desktop app\Nikitin_autoremont\Nikitin_autoremont\obj\Debug\Nikitin_autoremont.Form1.resources
 C:\Users\user\Documents\GitHub\AutoRemont\Desktop app\Nikitin_autoremont\Nikitin_autoremont\obj\Debug\Nikitin_autoremont.Properties.Resources.resources
 C:\Users\user\Documents\GitHub\AutoRemont\Desktop app\Nikitin_autoremont\Nikitin_autoremont\obj\Debug\Nikitin_autoremont.csproj.GenerateResource.Cache
+F:\AutoRemont\Desktop app\Nikitin_autoremont\Nikitin_autoremont\bin\Debug\Nikitin_autoremont.exe.config
+F:\AutoRemont\Desktop app\Nikitin_autoremont\Nikitin_autoremont\obj\Debug\Nikitin_autoremont.exe
+F:\AutoRemont\Desktop app\Nikitin_autoremont\Nikitin_autoremont\obj\Debug\Nikitin_autoremont.pdb

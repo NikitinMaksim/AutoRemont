@@ -1,0 +1,9 @@
+F:\AutoRemont\Desktop app\Nikitin_autoremont\Nikitin_autoremont\bin\Release\Nikitin_autoremont.exe.config
+F:\AutoRemont\Desktop app\Nikitin_autoremont\Nikitin_autoremont\bin\Release\Nikitin_autoremont.exe
+F:\AutoRemont\Desktop app\Nikitin_autoremont\Nikitin_autoremont\bin\Release\Nikitin_autoremont.pdb
+F:\AutoRemont\Desktop app\Nikitin_autoremont\Nikitin_autoremont\obj\Release\Nikitin_autoremont.csprojResolveAssemblyReference.cache
+F:\AutoRemont\Desktop app\Nikitin_autoremont\Nikitin_autoremont\obj\Release\Nikitin_autoremont.Form1.resources
+F:\AutoRemont\Desktop app\Nikitin_autoremont\Nikitin_autoremont\obj\Release\Nikitin_autoremont.Properties.Resources.resources
+F:\AutoRemont\Desktop app\Nikitin_autoremont\Nikitin_autoremont\obj\Release\Nikitin_autoremont.csproj.GenerateResource.Cache
+F:\AutoRemont\Desktop app\Nikitin_autoremont\Nikitin_autoremont\obj\Release\Nikitin_autoremont.exe
+F:\AutoRemont\Desktop app\Nikitin_autoremont\Nikitin_autoremont\obj\Release\Nikitin_autoremont.pdb

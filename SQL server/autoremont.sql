@@ -13,6 +13,10 @@ File Encoding         : 65001
 Date: 2023-06-18 18:07:43
 */
 
+CREATE DATABASE IF NOT EXISTS autoremont CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+USE autoremont;
+
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
@@ -21,8 +25,8 @@ SET FOREIGN_KEY_CHECKS=0;
 DROP TABLE IF EXISTS `authorization`;
 CREATE TABLE `authorization` (
 `ID_of_user`  int(11) NOT NULL AUTO_INCREMENT ,
-`Login`  varchar(30) CHARACTER SET cp1251 COLLATE cp1251_general_ci NOT NULL ,
-`Password`  varchar(30) CHARACTER SET cp1251 COLLATE cp1251_general_ci NOT NULL ,
+`Login`  varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`Password`  varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
 `ID_of_worker`  int(11) NOT NULL ,
 `Level_of_access`  tinyint(4) NULL DEFAULT NULL ,
 PRIMARY KEY (`ID_of_user`, `Login`, `Password`),
@@ -30,7 +34,7 @@ FOREIGN KEY (`ID_of_worker`) REFERENCES `workers` (`ID_of_worker`) ON DELETE CAS
 INDEX `FK_ID_of_worker` (`ID_of_worker`) USING BTREE 
 )
 ENGINE=InnoDB
-DEFAULT CHARACTER SET=cp1251 COLLATE=cp1251_general_ci
+DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
 AUTO_INCREMENT=5
 
 ;
@@ -49,15 +53,15 @@ DROP TABLE IF EXISTS `orders`;
 CREATE TABLE `orders` (
 `ID_of_order`  int(11) NOT NULL AUTO_INCREMENT ,
 `Date_of_complition`  date NOT NULL ,
-`Name_of_client`  varchar(20) CHARACTER SET cp1251 COLLATE cp1251_general_ci NULL DEFAULT NULL ,
-`Surname_of_client`  varchar(20) CHARACTER SET cp1251 COLLATE cp1251_general_ci NULL DEFAULT NULL ,
-`Phone_number_of_client`  varchar(16) CHARACTER SET cp1251 COLLATE cp1251_general_ci NULL DEFAULT NULL ,
+`Name_of_client`  varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL ,
+`Surname_of_client`  varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL ,
+`Phone_number_of_client`  varchar(16) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL ,
 `Is_order_complete`  bit(1) NOT NULL ,
-`Car_number`  varchar(15) CHARACTER SET cp1251 COLLATE cp1251_general_ci NOT NULL ,
+`Car_number`  varchar(15) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
 PRIMARY KEY (`ID_of_order`)
 )
 ENGINE=InnoDB
-DEFAULT CHARACTER SET=cp1251 COLLATE=cp1251_general_ci
+DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
 AUTO_INCREMENT=17
 
 ;
@@ -82,7 +86,7 @@ INDEX `FK_IF_of_service` (`ID_of_service`) USING BTREE ,
 INDEX `FK_ID_of_order` (`ID_of_order`) USING BTREE 
 )
 ENGINE=InnoDB
-DEFAULT CHARACTER SET=cp1251 COLLATE=cp1251_general_ci
+DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
 
 ;
 
@@ -106,7 +110,7 @@ FOREIGN KEY (`ID_of_order`) REFERENCES `orders` (`ID_of_order`) ON DELETE CASCAD
 INDEX `FK_ID_of_responsible` (`ID_of_responsible`) USING BTREE 
 )
 ENGINE=InnoDB
-DEFAULT CHARACTER SET=cp1251 COLLATE=cp1251_general_ci
+DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
 
 ;
 
@@ -123,13 +127,13 @@ COMMIT;
 DROP TABLE IF EXISTS `services`;
 CREATE TABLE `services` (
 `ID_of_service`  int(11) NOT NULL AUTO_INCREMENT ,
-`Name_of_service`  varchar(50) CHARACTER SET cp1251 COLLATE cp1251_general_ci NOT NULL ,
+`Name_of_service`  varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
 `Price`  int(7) NOT NULL ,
 `Recommended_time_days`  tinyint(4) NOT NULL ,
 PRIMARY KEY (`ID_of_service`, `Name_of_service`)
 )
 ENGINE=InnoDB
-DEFAULT CHARACTER SET=cp1251 COLLATE=cp1251_general_ci
+DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
 AUTO_INCREMENT=6
 
 ;
@@ -147,12 +151,12 @@ COMMIT;
 DROP TABLE IF EXISTS `storage`;
 CREATE TABLE `storage` (
 `ID_of_part`  int(11) NOT NULL AUTO_INCREMENT ,
-`Name_of_part`  varchar(50) CHARACTER SET cp1251 COLLATE cp1251_general_ci NOT NULL ,
+`Name_of_part`  varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
 `Remaining_amount`  int(11) NULL DEFAULT NULL ,
 PRIMARY KEY (`ID_of_part`)
 )
 ENGINE=InnoDB
-DEFAULT CHARACTER SET=cp1251 COLLATE=cp1251_general_ci
+DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
 AUTO_INCREMENT=13
 
 ;
@@ -180,7 +184,7 @@ INDEX `FK_ID_of_service` (`ID_of_service`) USING BTREE ,
 INDEX `FK_ID_of_part` (`ID_of_part`) USING BTREE 
 )
 ENGINE=InnoDB
-DEFAULT CHARACTER SET=cp1251 COLLATE=cp1251_general_ci
+DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
 AUTO_INCREMENT=7
 
 ;
@@ -198,14 +202,14 @@ COMMIT;
 DROP TABLE IF EXISTS `workers`;
 CREATE TABLE `workers` (
 `ID_of_worker`  int(11) NOT NULL AUTO_INCREMENT ,
-`Profession`  varchar(50) CHARACTER SET cp1251 COLLATE cp1251_general_ci NOT NULL ,
-`Name`  varchar(20) CHARACTER SET cp1251 COLLATE cp1251_general_ci NOT NULL ,
-`Surname`  varchar(20) CHARACTER SET cp1251 COLLATE cp1251_general_ci NOT NULL ,
+`Profession`  varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`Name`  varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`Surname`  varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
 `Salary`  int(11) NOT NULL ,
 PRIMARY KEY (`ID_of_worker`)
 )
 ENGINE=InnoDB
-DEFAULT CHARACTER SET=cp1251 COLLATE=cp1251_general_ci
+DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
 AUTO_INCREMENT=6
 
 ;

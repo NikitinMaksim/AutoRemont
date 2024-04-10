@@ -1,0 +1,21 @@
+[Wed Apr 10 18:51:52 2024] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Wed Apr 10 18:51:53 2024] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Wed Apr 10 18:51:53 2024] [notice] Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 configured -- resuming normal operations
+[Wed Apr 10 18:51:53 2024] [notice] Server built: Apr 20 2012 18:42:30
+[Wed Apr 10 18:51:53 2024] [notice] Parent: Created child process 5404
+[Wed Apr 10 18:51:53 2024] [notice] Disabled use of AcceptEx() WinSock2 API
+[Wed Apr 10 18:51:53 2024] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Wed Apr 10 18:52:00 2024] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Wed Apr 10 18:52:00 2024] [notice] Child 5404: Child process is running
+[Wed Apr 10 18:52:00 2024] [notice] Child 5404: Acquired the start mutex.
+[Wed Apr 10 18:52:00 2024] [notice] Child 5404: Starting 25 worker threads.
+[Wed Apr 10 18:52:00 2024] [notice] Child 5404: Listening on port 443.
+[Wed Apr 10 18:52:00 2024] [notice] Child 5404: Listening on port 8648.
+[Wed Apr 10 18:52:00 2024] [notice] Child 5404: Listening on port 443.
+[Wed Apr 10 18:52:00 2024] [notice] Child 5404: Listening on port 80.
+[Wed Apr 10 20:15:49 2024] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Wed Apr 10 20:15:49 2024] [notice] Child 5404: Exit event signaled. Child process is ending.
+[Wed Apr 10 20:15:50 2024] [notice] Child 5404: Released the start mutex
+[Wed Apr 10 20:16:08 2024] [notice] Child 5404: All worker threads have exited.
+[Wed Apr 10 20:16:08 2024] [notice] Child 5404: Child process is exiting
+[Wed Apr 10 20:16:08 2024] [notice] Parent: Child process exited successfully.
